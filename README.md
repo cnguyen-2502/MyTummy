@@ -37,4 +37,4 @@ The current version is loaded with some fake data to show off the analytics capa
 **Chi Nguyen**  
 2026  
 
-Made with the help of Claude Code.
+Made with the help of Claude Code : https://claude.ai/share/99752505-84f6-49a4-897b-2bc462ec9eb5 
