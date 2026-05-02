@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Prenatal Vitamin (Nature Made)",
+    "dose": "1 tablet",
+    "frequency": "Once daily",
+    "start_date": "2026-03-15",
+    "notes": "Take with food to reduce nausea. Contains folic acid, iron, DHA.",
+    "id": "2026-03-15T08:00:00.000000"
+  },
+  {
+    "name": "Vitamin D3",
+    "dose": "1000 IU",
+    "frequency": "Once daily",
+    "start_date": "2026-03-20",
+    "notes": "Recommended by Dr. Park — levels were on the lower end.",
+    "id": "2026-03-20T10:00:00.000000"
+  },
+  {
+    "name": "Magnesium Glycinate",
+    "dose": "200mg",
+    "frequency": "Once daily at bedtime",
+    "start_date": "2026-04-01",
+    "notes": "Helps with leg cramps and sleep. OB-approved.",
+    "id": "2026-04-01T09:00:00.000000"
+  }
+]

@@ -1,0 +1,356 @@
+[
+  {
+    "mood": 2,
+    "energy": 2,
+    "sleep_hours": 6.0,
+    "sleep_quality": 2,
+    "pain": 2,
+    "symptoms": {
+      "bleeding": 2,
+      "nausea": 3,
+      "back pain": 2
+    },
+    "vitamins": false,
+    "movement": false,
+    "ate_well": false,
+    "hydration": 2,
+    "notes": "Light spotting this morning, very anxious. Called my OB and they said to monitor it. Nausea has been bad today too.",
+    "timestamp": "2026-03-28T09:12:44.000000",
+    "date": "2026-03-28"
+  },
+  {
+    "mood": 2,
+    "energy": 2,
+    "sleep_hours": 5.5,
+    "sleep_quality": 1,
+    "pain": 1,
+    "symptoms": {
+      "bleeding": 1,
+      "nausea": 2
+    },
+    "vitamins": true,
+    "movement": false,
+    "ate_well": false,
+    "hydration": 2,
+    "notes": "Still some spotting but lighter than yesterday. Resting most of the day per OB advice. Trying not to stress.",
+    "timestamp": "2026-03-29T08:44:11.000000",
+    "date": "2026-03-29"
+  },
+  {
+    "mood": 3,
+    "energy": 3,
+    "sleep_hours": 7.0,
+    "sleep_quality": 3,
+    "pain": 1,
+    "symptoms": {
+      "nausea": 3
+    },
+    "vitamins": true,
+    "movement": false,
+    "ate_well": true,
+    "hydration": 3,
+    "notes": "No bleeding today, feeling relieved. Still nauseous in the morning.",
+    "timestamp": "2026-03-30T09:20:00.000000",
+    "date": "2026-03-30"
+  },
+  {
+    "mood": 3,
+    "energy": 2,
+    "sleep_hours": 7.5,
+    "sleep_quality": 3,
+    "pain": 0,
+    "symptoms": {
+      "nausea": 3,
+      "bloating": 2
+    },
+    "vitamins": true,
+    "movement": false,
+    "ate_well": true,
+    "hydration": 3,
+    "notes": "Morning sickness still rough. Crackers and ginger tea helping a bit.",
+    "timestamp": "2026-04-01T08:05:22.000000",
+    "date": "2026-04-01"
+  },
+  {
+    "mood": 4,
+    "energy": 3,
+    "sleep_hours": 8.0,
+    "sleep_quality": 3,
+    "pain": 0,
+    "symptoms": {
+      "nausea": 2,
+      "bloating": 1
+    },
+    "vitamins": true,
+    "movement": true,
+    "ate_well": true,
+    "hydration": 3,
+    "notes": "Went for a short walk. Nausea a bit better today.",
+    "timestamp": "2026-04-03T09:30:00.000000",
+    "date": "2026-04-03"
+  },
+  {
+    "mood": 3,
+    "energy": 2,
+    "sleep_hours": 6.5,
+    "sleep_quality": 2,
+    "pain": 1,
+    "symptoms": {
+      "nausea": 3,
+      "headache": 2
+    },
+    "vitamins": false,
+    "movement": false,
+    "ate_well": false,
+    "hydration": 2,
+    "notes": "Tired and headache in the afternoon. Forgot my vitamins.",
+    "timestamp": "2026-04-05T10:00:00.000000",
+    "date": "2026-04-05"
+  },
+  {
+    "mood": 4,
+    "energy": 3,
+    "sleep_hours": 8.0,
+    "sleep_quality": 4,
+    "pain": 0,
+    "symptoms": {
+      "nausea": 2
+    },
+    "vitamins": true,
+    "movement": true,
+    "ate_well": true,
+    "hydration": 4,
+    "notes": "Good day overall. Cooked a proper dinner for the first time in weeks.",
+    "timestamp": "2026-04-07T08:45:00.000000",
+    "date": "2026-04-07"
+  },
+  {
+    "mood": 4,
+    "energy": 3,
+    "sleep_hours": 7.5,
+    "sleep_quality": 3,
+    "pain": 0,
+    "symptoms": {
+      "nausea": 2,
+      "back pain": 1
+    },
+    "vitamins": true,
+    "movement": false,
+    "ate_well": true,
+    "hydration": 3,
+    "notes": "Mild lower back ache. Otherwise a decent day.",
+    "timestamp": "2026-04-09T09:10:00.000000",
+    "date": "2026-04-09"
+  },
+  {
+    "mood": 5,
+    "energy": 4,
+    "sleep_hours": 8.5,
+    "sleep_quality": 4,
+    "pain": 0,
+    "symptoms": {
+      "nausea": 1
+    },
+    "vitamins": true,
+    "movement": true,
+    "ate_well": true,
+    "hydration": 4,
+    "notes": "Nausea finally easing! Felt like myself again today. Second trimester energy kicking in maybe?",
+    "timestamp": "2026-04-11T08:30:00.000000",
+    "date": "2026-04-11"
+  },
+  {
+    "mood": 4,
+    "energy": 4,
+    "sleep_hours": 8.0,
+    "sleep_quality": 4,
+    "pain": 0,
+    "symptoms": {},
+    "vitamins": true,
+    "movement": true,
+    "ate_well": true,
+    "hydration": 3,
+    "notes": "Really good day. Went to the farmers market with mom.",
+    "timestamp": "2026-04-13T09:00:00.000000",
+    "date": "2026-04-13"
+  },
+  {
+    "mood": 3,
+    "energy": 3,
+    "sleep_hours": 7.0,
+    "sleep_quality": 3,
+    "pain": 1,
+    "symptoms": {
+      "back pain": 2,
+      "bloating": 1
+    },
+    "vitamins": true,
+    "movement": false,
+    "ate_well": true,
+    "hydration": 3,
+    "notes": "Work was stressful. Back a bit sore from sitting all day.",
+    "timestamp": "2026-04-15T08:55:00.000000",
+    "date": "2026-04-15"
+  },
+  {
+    "mood": 4,
+    "energy": 4,
+    "sleep_hours": 8.5,
+    "sleep_quality": 4,
+    "pain": 0,
+    "symptoms": {},
+    "vitamins": true,
+    "movement": true,
+    "ate_well": true,
+    "hydration": 4,
+    "notes": "Prenatal yoga class — loved it. Feeling strong.",
+    "timestamp": "2026-04-17T09:20:00.000000",
+    "date": "2026-04-17"
+  },
+  {
+    "mood": 4,
+    "energy": 3,
+    "sleep_hours": 7.5,
+    "sleep_quality": 3,
+    "pain": 0,
+    "symptoms": {
+      "bloating": 1
+    },
+    "vitamins": true,
+    "movement": true,
+    "ate_well": true,
+    "hydration": 3,
+    "notes": "Normal day. Bump is definitely showing now.",
+    "timestamp": "2026-04-19T09:00:00.000000",
+    "date": "2026-04-19"
+  },
+  {
+    "mood": 5,
+    "energy": 5,
+    "sleep_hours": 9.0,
+    "sleep_quality": 5,
+    "pain": 0,
+    "symptoms": {},
+    "vitamins": true,
+    "movement": true,
+    "ate_well": true,
+    "hydration": 4,
+    "notes": "Best day in a long time. Told my team at work today — they were so sweet.",
+    "timestamp": "2026-04-21T08:45:00.000000",
+    "date": "2026-04-21"
+  },
+  {
+    "mood": 4,
+    "energy": 4,
+    "sleep_hours": 8.0,
+    "sleep_quality": 4,
+    "pain": 0,
+    "symptoms": {},
+    "vitamins": true,
+    "movement": false,
+    "ate_well": true,
+    "hydration": 3,
+    "notes": "Good energy. Slight round ligament twinge when I stood up too fast.",
+    "timestamp": "2026-04-23T09:10:00.000000",
+    "date": "2026-04-23"
+  },
+  {
+    "mood": 3,
+    "energy": 3,
+    "sleep_hours": 7.0,
+    "sleep_quality": 3,
+    "pain": 1,
+    "symptoms": {
+      "back pain": 2
+    },
+    "vitamins": true,
+    "movement": false,
+    "ate_well": true,
+    "hydration": 3,
+    "notes": "Tired by afternoon. Lower back bothering me a little.",
+    "timestamp": "2026-04-25T08:30:00.000000",
+    "date": "2026-04-25"
+  },
+  {
+    "mood": 4,
+    "energy": 4,
+    "sleep_hours": 8.0,
+    "sleep_quality": 4,
+    "pain": 0,
+    "symptoms": {},
+    "vitamins": true,
+    "movement": true,
+    "ate_well": true,
+    "hydration": 4,
+    "notes": "Walked 30 min after dinner. Feeling good!",
+    "timestamp": "2026-04-27T09:00:00.000000",
+    "date": "2026-04-27"
+  },
+  {
+    "mood": 4,
+    "energy": 4,
+    "sleep_hours": 8.5,
+    "sleep_quality": 4,
+    "pain": 0,
+    "symptoms": {
+      "heartburn": 1
+    },
+    "vitamins": {
+      "folic_acid": true,
+      "iron": true,
+      "calcium_vit_d": false,
+      "iodine": true,
+      "dha_omega3": true
+    },
+    "movement": true,
+    "ate_well": true,
+    "hydration": 3,
+    "notes": "Mild heartburn after dinner — need to watch spicy food. Otherwise great.",
+    "timestamp": "2026-04-29T09:05:00.000000",
+    "date": "2026-04-29"
+  },
+  {
+    "mood": 5,
+    "energy": 4,
+    "sleep_hours": 8.5,
+    "sleep_quality": 5,
+    "pain": 0,
+    "symptoms": {},
+    "vitamins": {
+      "folic_acid": true,
+      "iron": true,
+      "calcium_vit_d": true,
+      "iodine": true,
+      "dha_omega3": true
+    },
+    "movement": true,
+    "ate_well": true,
+    "hydration": 4,
+    "notes": "OB appointment today — everything looks great. Heartbeat strong at 152 bpm.",
+    "timestamp": "2026-05-01T09:30:00.000000",
+    "date": "2026-05-01"
+  },
+  {
+    "mood": 4,
+    "energy": 4,
+    "sleep_hours": 8.0,
+    "sleep_quality": 4,
+    "pain": 0,
+    "symptoms": {
+      "heartburn": 1
+    },
+    "vitamins": {
+      "folic_acid": true,
+      "iron": true,
+      "calcium_vit_d": true,
+      "iodine": false,
+      "dha_omega3": true
+    },
+    "movement": true,
+    "ate_well": true,
+    "hydration": 3,
+    "notes": "Saturday morning prenatal yoga. Feeling good, bump is getting rounder.",
+    "timestamp": "2026-05-02T10:15:00.000000",
+    "date": "2026-05-02"
+  }
+]

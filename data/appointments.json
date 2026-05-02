@@ -1,0 +1,56 @@
+[
+  {
+    "title": "OB Checkup — 8 Weeks",
+    "date": "2026-03-20",
+    "time": "10:00",
+    "provider": "Dr. Michelle Park",
+    "location": "Bay Women's Health Center",
+    "notes": "First OB appointment. Confirmed heartbeat on ultrasound, 8w2d. Discussed prenatal vitamins and diet.",
+    "id": "appt-001"
+  },
+  {
+    "title": "Follow-up — Spotting Concern",
+    "date": "2026-03-28",
+    "time": "14:30",
+    "provider": "Dr. Michelle Park",
+    "location": "Bay Women's Health Center",
+    "notes": "Urgent visit for light bleeding. Ultrasound showed small subchorionic hematoma — told to rest, monitor. Baby looks fine.",
+    "id": "appt-002"
+  },
+  {
+    "title": "Nuchal Translucency Scan — 11 Weeks",
+    "date": "2026-04-10",
+    "time": "09:00",
+    "provider": "Perinatal Imaging Associates",
+    "location": "Perinatal Imaging Associates",
+    "notes": "NT measurement 1.4mm — low risk. Blood work (NIPT) sent out. Everything looks great!",
+    "id": "appt-003"
+  },
+  {
+    "title": "OB Checkup — 14 Weeks",
+    "date": "2026-05-01",
+    "time": "11:00",
+    "provider": "Dr. Michelle Park",
+    "location": "Bay Women's Health Center",
+    "notes": "NIPT results all normal. Heartbeat 152 bpm. Officially in second trimester. Discussed anatomy scan at 20 weeks.",
+    "id": "appt-004"
+  },
+  {
+    "title": "Anatomy Scan — 20 Weeks",
+    "date": "2026-06-12",
+    "time": "09:30",
+    "provider": "Perinatal Imaging Associates",
+    "location": "Perinatal Imaging Associates",
+    "notes": "Scheduled. Will find out sex if baby cooperates!",
+    "id": "appt-005"
+  },
+  {
+    "title": "OB Checkup — 18 Weeks",
+    "date": "2026-05-29",
+    "time": "10:30",
+    "provider": "Dr. Michelle Park",
+    "location": "Bay Women's Health Center",
+    "notes": "",
+    "id": "appt-006"
+  }
+]

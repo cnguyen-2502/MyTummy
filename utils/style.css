@@ -1,0 +1,519 @@
+/* ── MyTummy Custom Styles ── */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap');
+
+/* ══════════════════
+   Design Tokens
+   ══════════════════ */
+:root {
+    --rose:        #E0737D;
+    --rose-light:  #F2B8BC;
+    --cream:       #FFF8F5;
+    --cream-dark:  #FFF0EB;
+    --sage:        #8BAF8B;
+    --sage-light:  #D4EAD4;
+    --mauve:       #9E6B7A;
+    --text:        #3D2B35;
+    --text-muted:  #8C6B75;
+    --border:      #EDCFC8;
+    --white:       #FFFFFF;
+    --danger:      #D94F4F;
+    --danger-bg:   #FFF3F3;
+    --warning:     #C97D20;
+    --warning-bg:  #FFF8EC;
+}
+
+/* ══════════════════
+   Base
+   ══════════════════ */
+html, body, [class*="css"] {
+    font-family: 'DM Sans', sans-serif;
+    color: var(--text);
+    background-color: var(--cream);
+}
+
+/* Streamlit root containers */
+.stApp,
+[data-testid="stAppViewContainer"],
+[data-testid="stMain"],
+[data-testid="stMainBlockContainer"],
+[data-testid="block-container"],
+section.main {
+    background-color: var(--cream) !important;
+}
+
+/* ══════════════════
+   Global color reset
+   ══════════════════ */
+* {
+    color: inherit;
+    border-color: var(--border);
+}
+
+p, span, div, h1, h2, h3, h4, h5, h6,
+li, label, td, th, caption, legend,
+.stMarkdown, .stMarkdown *,
+[class*="css"] {
+    color: var(--text) !important;
+}
+
+.score-circle *,
+.stButton > button,
+.stButton > button *,
+[data-testid="stFormSubmitButton"] > button,
+[data-testid="stFormSubmitButton"] > button * {
+    color: var(--white) !important;
+}
+
+a, a:visited { color: var(--rose) !important; }
+a:hover      { color: var(--mauve) !important; }
+
+/* ══════════════════
+   Sidebar
+   ══════════════════ */
+.sidebar-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--mauve);
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+.sidebar-tagline {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+.preg-stats {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0.5rem 0;
+}
+
+.stat-pill {
+    background: var(--rose-light);
+    color: var(--mauve);
+    font-weight: 500;
+    font-size: 0.8rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+}
+
+/* ══════════════════
+   Page headers
+   ══════════════════ */
+.page-header {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: var(--mauve);
+    margin-bottom: 0.25rem;
+}
+
+.page-sub {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+}
+
+/* ══════════════════
+   Cards
+   ══════════════════ */
+.card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 12px rgba(157, 107, 122, 0.07);
+}
+
+.card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    color: var(--mauve);
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.alert-card {
+    background: var(--danger-bg);
+    border: 1.5px solid var(--danger);
+    border-radius: 12px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.warning-card {
+    background: var(--warning-bg);
+    border: 1.5px solid var(--warning);
+    border-radius: 12px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1rem;
+}
+
+/* ══════════════════
+   Score circle
+   ══════════════════ */
+.score-circle {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--rose-light), var(--rose));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    box-shadow: 0 4px 20px rgba(224, 115, 125, 0.25);
+}
+
+.score-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.score-label {
+    font-size: 0.65rem;
+    color: rgba(255, 255, 255, 0.85) !important;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* ══════════════════
+   Metric tiles
+   ══════════════════ */
+.metric-tile {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 0.9rem 1rem;
+    text-align: center;
+}
+
+.metric-val {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    color: var(--rose) !important;
+    font-weight: 600;
+}
+
+.metric-lbl {
+    font-size: 0.75rem;
+    color: var(--text-muted) !important;
+    margin-top: 0.1rem;
+}
+
+/* ══════════════════
+   Insight box
+   ══════════════════ */
+.insight-box {
+    background: var(--cream-dark);
+    border-left: 3px solid var(--mauve);
+    border-radius: 0 10px 10px 0;
+    padding: 0.9rem 1.1rem;
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+/* ══════════════════
+   Trimester badges
+   ══════════════════ */
+.trimester-badge {
+    display: inline-block;
+    padding: 0.3rem 1rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-left: 0.5rem;
+}
+
+.t1 { background: var(--sage-light); color: #3a6b3a !important; }
+.t2 { background: var(--rose-light); color: var(--mauve) !important; }
+.t3 { background: #EDE8F5;           color: #5a3a8a !important; }
+
+/* ══════════════════
+   Log rows
+   ══════════════════ */
+.log-row {
+    border-bottom: 1px solid var(--border);
+    padding: 0.6rem 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.88rem;
+}
+
+/* ══════════════════
+   Milestones
+   ══════════════════ */
+.milestone {
+    background: var(--cream-dark);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 0.75rem 1.1rem;
+    margin: 0.3rem 0;
+    font-size: 0.88rem;
+}
+
+/* ══════════════════
+   Top bar
+   ══════════════════ */
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.top-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--mauve);
+}
+
+/* ══════════════════
+   Streamlit Widgets
+   ══════════════════ */
+
+/* Buttons */
+.stButton > button,
+[data-testid="stFormSubmitButton"] > button {
+    background: linear-gradient(135deg, var(--rose), var(--mauve)) !important;
+    border: none !important;
+    border-radius: 10px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+.stButton > button:hover,
+[data-testid="stFormSubmitButton"] > button:hover {
+    opacity: 0.88 !important;
+}
+
+/* Number input +/- buttons */
+[data-testid="stNumberInput"] button {
+    background-color: var(--cream-dark) !important;
+    color: var(--mauve) !important;
+    border: none !important;
+}
+
+/* Inputs & textareas */
+input, textarea,
+[data-baseweb="input"] *,
+[data-baseweb="textarea"] *,
+[data-testid="stTextInput"] *,
+[data-testid="stTextArea"] *,
+[data-testid="stNumberInput"] *,
+[data-testid="stTimeInput"] *,
+[data-baseweb="time-picker"] * {
+    background-color: var(--white) !important;
+    color: var(--text) !important;
+}
+
+/* Sliders */
+[data-baseweb="slider"] [role="slider"] {
+    background-color: var(--rose) !important;
+    border-color: var(--rose) !important;
+}
+[data-baseweb="slider"] div[class*="track"] {
+    background-color: var(--rose-light) !important;
+}
+[data-testid="stSlider"] p,
+[data-testid="stSlider"] span,
+[data-testid="stTickBar"] span {
+    color: var(--text-muted) !important;
+}
+
+/* Selectbox / dropdowns */
+[data-baseweb="select"] *,
+[data-baseweb="popover"] *,
+[data-baseweb="menu"] *,
+[role="listbox"], [role="listbox"] *,
+[role="option"], [role="option"] * {
+    background-color: var(--white) !important;
+    color: var(--text) !important;
+}
+[role="option"]:hover,
+[role="option"]:hover * {
+    background-color: var(--cream-dark) !important;
+    color: var(--mauve) !important;
+}
+
+/* Multiselect tags */
+[data-baseweb="tag"],
+[data-baseweb="tag"] * {
+    background-color: var(--rose-light) !important;
+    color: var(--mauve) !important;
+}
+
+/* Prevent first tag from being clipped by the left border */
+[data-baseweb="select"] > div:first-child {
+    padding-left: 8px !important;
+}
+
+/* Checkboxes */
+[data-baseweb="checkbox"] svg { fill: var(--rose) !important; }
+
+/* Expanders */
+[data-testid="stExpander"],
+[data-testid="stExpanderDetails"],
+details {
+    background-color: var(--white) !important;
+    border-radius: 10px;
+}
+details summary {
+    background-color: var(--cream-dark) !important;
+    color: var(--mauve) !important;
+    border-radius: 10px;
+}
+
+/* Tabs */
+button[role="tab"],
+button[role="tab"] * {
+    color: var(--text) !important;
+    background-color: transparent !important;
+}
+button[role="tab"][aria-selected="true"],
+button[role="tab"][aria-selected="true"] * {
+    color: var(--rose) !important;
+    border-bottom-color: var(--rose) !important;
+}
+
+/* Captions */
+[data-testid="stCaptionContainer"] *,
+.stCaption, .stCaption * {
+    color: var(--text-muted) !important;
+}
+
+/* ══════════════════
+   Sidebar expander
+   ══════════════════ */
+[data-testid="stSidebar"] details,
+[data-testid="stSidebar"] [data-testid="stExpander"],
+[data-testid="stSidebar"] [data-testid="stExpanderDetails"] {
+    background-color: var(--cream-dark) !important;
+}
+[data-testid="stSidebar"] details summary {
+    background-color: var(--cream-dark) !important;
+    color: var(--text) !important;
+}
+[data-testid="stSidebar"] input,
+[data-testid="stSidebar"] [data-baseweb="input"] {
+    background-color: var(--white) !important;
+}
+
+/* Sidebar toggle button */
+[data-testid="collapsedControl"] {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    background-color: var(--rose) !important;
+    color: var(--white) !important;
+    border-radius: 0 8px 8px 0 !important;
+}
+
+/* ══════════════════
+   Date picker
+   ══════════════════ */
+[data-baseweb="calendar"],
+[data-baseweb="calendar"] * {
+    background-color: var(--white) !important;
+    color: var(--text) !important;
+}
+[data-baseweb="calendar"] [aria-selected="true"] {
+    background-color: var(--rose) !important;
+    color: var(--white) !important;
+}
+[data-baseweb="calendar"] [data-baseweb="button"]:hover {
+    background-color: var(--cream-dark) !important;
+}
+[data-baseweb="calendar"] [role="columnheader"] {
+    color: var(--text-muted) !important;
+}
+[data-baseweb="calendar"] [aria-disabled="true"],
+[data-baseweb="calendar"] button:disabled {
+    color: var(--rose-light) !important;
+    opacity: 1 !important;
+    background-color: transparent !important;
+}
+[data-testid="stDateInput"] * {
+    color: var(--text) !important;
+    background-color: var(--white) !important;
+}
+
+/* ══════════════════
+   Misc
+   ══════════════════ */
+
+/* Alerts */
+[data-testid="stAlert"] *,
+[data-testid="stInfo"] *,
+[data-testid="stSuccess"] * {
+    color: var(--text) !important;
+}
+
+/* Plotly */
+.js-plotly-plot, .plotly, .plot-container {
+    background-color: transparent !important;
+}
+
+/* Dividers */
+hr {
+    border-color: var(--border) !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar       { width: 6px; }
+::-webkit-scrollbar-track { background: var(--cream-dark); }
+::-webkit-scrollbar-thumb { background: var(--rose-light); border-radius: 999px; }
+
+/* ══════════════════
+   Mobile
+   ══════════════════ */
+@media (max-width: 768px) {
+    .page-header        { font-size: 1.4rem; }
+    .sidebar-logo       { font-size: 1.4rem; }
+    .card               { padding: 0.9rem 1rem; border-radius: 12px; }
+    .metric-val         { font-size: 1.2rem; }
+    .metric-tile        { padding: 0.6rem 0.5rem; }
+    .score-circle       { width: 70px; height: 70px; }
+    .score-num          { font-size: 1.4rem; }
+    .stat-pill          { font-size: 0.75rem; padding: 0.2rem 0.6rem; }
+    .preg-stats         { gap: 0.35rem; }
+    .insight-box        { padding: 0.7rem 0.85rem; font-size: 0.85rem; }
+    .alert-card,
+    .warning-card       { padding: 0.75rem 1rem; font-size: 0.85rem; }
+    .milestone          { font-size: 0.82rem; padding: 0.6rem 0.9rem; }
+    .stButton > button  { font-size: 0.9rem; padding: 0.5rem 1rem; }
+
+    [data-testid="stHorizontalBlock"] { gap: 0.5rem !important; }
+    [data-testid="stPlotlyChart"]     { overflow-x: auto; }
+}
+
+[data-testid="stToast"] { display: none !important; }
+
+/* ══════════════════
+   Help tooltips
+   ══════════════════ */
+div[data-baseweb="tooltip"],
+div[data-baseweb="tooltip"] *,
+[role="tooltip"],
+[role="tooltip"] * {
+    background-color: var(--white) !important;
+    color: var(--text) !important;
+    border: 1px solid var(--border) !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 16px rgba(157, 107, 122, 0.12) !important;
+    font-size: 0.82rem !important;
+    line-height: 1.7 !important;
+}
